@@ -1,4 +1,5 @@
-import user_image from './user-image.png';
+// import user_image from './user-image.png';
+import user_image from './user-image2.jpeg';
 import code_icon from './code-icon.png';
 import code_icon_dark from './code-icon-dark.png';
 import edu_icon from './edu-icon.png';
@@ -15,7 +16,8 @@ import logo from './logo.png';
 import logo_dark from './logo_dark.png';
 import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
-import profile_img from './profile-img.png';
+// import profile_img from './profile-img.png';
+import profile_img from './user-image2.jpeg';
 import download_icon from './download-icon.png';
 import hand_icon from './hand-icon.png';
 import header_bg_color from './header-bg-color.png';
@@ -103,6 +105,16 @@ export const workData = [
         description: 'UI/UX Design',
         bgImage: '/work-4.png',
     },
+    {
+        title: 'UI/UX designing',
+        description: 'UI/UX Design',
+        bgImage: '/work-4.png',
+    },
+    {
+        title: 'UI/UX designing',
+        description: 'UI/UX Design',
+        bgImage: '/work-4.png',
+    },
 ]
 
 // export const serviceData = [
@@ -113,9 +125,9 @@ export const workData = [
 // ]
 
 export const serviceData = [
-    { icon: assets.legal_icon, title: 'Jasa Legalitas', description: 'Jasa pengurusan PT, CV, Koperasi, Yayasan Perkumpulan, etc...', link: '' },
-    { icon: assets.tax_icon, title: 'Jasa Management Pajak', description: 'Penyusunan dan Audit laporan keuangan, Jasa Pajak Daerah Kendaraan, etc...', link: '' },
-    { icon: assets.education_Icon, title: 'Jasa Pendidikan', description: 'Webinar perpajakan, Berever AB Bersertifikat, Privat Pajak dan Laporan Keuangan, etc...', link: '' },
+    { icon: assets.legal_icon, title: 'Jasa Legalitas', description: 'Jasa pengurusan PT, CV, Koperasi, Yayasan Perkumpulan, Pembuatan NPWP, PKP, NIB, KBLI, Perubahan Akte, Virtual Office.', link: '' },
+    { icon: assets.tax_icon, title: 'Jasa Management Pajak', description: 'Penyusunan dan Audit laporan keuangan, Jasa Pajak Daerah Kendaraan, Restoran dan Rumah, Pendampingan Pemeriksaan Pajak, Penyusunan dan Pelaporan SPT Tahunan dan Masa, Pendampingan Pengajuan Restitusi PPN dan PPh Badan, Pendampingan SP2DK.', link: '' },
+    { icon: assets.education_Icon, title: 'Jasa Pendidikan', description: 'Webinar perpajakan, Berever AB Bersertifikat, Privat Pajak dan Laporan Keuangan.', link: '' },
 ]
 
 export const infoList = [
