@@ -2,6 +2,7 @@
 import {motion, AnimatePresence} from 'framer-motion'
 import { assets } from '@/assets/assets'
 import Image from 'next/image'
+import Head from 'next/head'
 import React, { useEffect, useState, useRef } from 'react'
 
 const Header = () => {
@@ -32,6 +33,7 @@ const Header = () => {
     }, [])
 
     return (
+        <>
         <motion.div 
             className="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4"
             initial={{ opacity: 0, y:30 }}
@@ -48,7 +50,7 @@ const Header = () => {
                 // animate={{ scale: 1, opacity: 1 }}
                 transition={{ duration: 0.5, ease: "easeOut" }}
             >
-                <Image src={assets.profile_img} alt="" className="rounded-full w-32" />
+                <Image src={assets.profile_img} alt="Dino Agus Parwindo - Tax Consultant" className="rounded-full w-32" />
             </motion.div>
 
             {/* Greeting */}
@@ -123,6 +125,7 @@ const Header = () => {
                 </motion.a>
             </motion.div>
         </motion.div>
+    </>
     )
 }
 
